@@ -1,13 +1,20 @@
 {
   "name": "parcel-template",
   "version": "1.0.0",
-  "source": "src/index.html",
   "scripts": {
-    "start": "parcel --no-cache",
-    "build": "parcel build --public-url ."
+    "dev": "webpack serve --mode=development",
+    "build": "webpack --mode=production"
   },
   "devDependencies": {
-    "parcel": "^2.4.1",
-    "parcel-reporter-clean-dist": "^1.0.4"
+    "copy-webpack-plugin": "^11.0.0",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "error-overlay-webpack-plugin": "^1.1.0",
+    "remove-files-webpack-plugin": "^1.5.0",
+    "terser-webpack-plugin": "^5.3.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  },
+  "dependencies": {
+    "google-translate-api-browser": "^1.1.71"
   }
 }

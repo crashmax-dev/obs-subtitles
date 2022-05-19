@@ -1,11 +1,8 @@
 html,
 body {
-  position: relative;
   padding: 0;
   margin: 0;
-  border: 0;
-  background: rgba(0, 0, 0, 0);
-  overflow: hidden;
+  background-color: #000;
 }
 
 body::-webkit-scrollbar,
@@ -15,13 +12,12 @@ div::-webkit-scrollbar {
 
 div#subtitle {
   position: absolute;
-  bottom: 75vh;
+  bottom: 95vh;
   left: 0px;
   background: transparent;
   font-family: "San Francisco", "Helvetica Neue", "Helvetica", Arial, Sans-Serif;
-  font-size: calc(3vh + 3vw);
-  font-weight: 200;
-  line-height: calc(4vh + 3vw);
+  font-size: 20px;
+  line-height: 24px;
   color: #fefef2;
   text-shadow: 3px 1px 4px #222;
   display: flex;
