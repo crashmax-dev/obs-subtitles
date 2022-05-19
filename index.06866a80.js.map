@@ -1,1 +1,0 @@
-{"mappings":"AAAA,SAASA,WACP,MAAO","sources":["src/username.js"],"sourcesContent":["function username() {\n  return \"MY_TWITCH_ID_HERE\"; // <-- Fill in your username\n  // example: return \"ninja\";\n}\n"],"names":["username"],"version":3,"file":"index.06866a80.js.map"}
