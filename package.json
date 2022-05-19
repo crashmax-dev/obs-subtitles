@@ -1,0 +1,13 @@
+{
+  "name": "parcel-template",
+  "version": "1.0.0",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel --no-cache",
+    "build": "parcel build --public-url ."
+  },
+  "devDependencies": {
+    "parcel": "^2.4.1",
+    "parcel-reporter-clean-dist": "^1.0.4"
+  }
+}
